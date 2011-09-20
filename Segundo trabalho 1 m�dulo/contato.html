@@ -1,0 +1,98 @@
+<!--
+pagina de contato poucos ajustes
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css-mestre.css"/>
+    </head>
+     <body>
+        <!--inicio da div principal-->
+      <div id="principal">
+            <!--inicio da div topo-->
+            <div id="topo">
+                <div id="cabecalho">
+                   
+                </div>
+                 <div id="subcabecalho">
+                        <div id="menuh">
+                            <div id="link">
+                                <a href="historia.html">HISTÓRIA</a>
+                                <a href="portifolio.html">PORTIFÓLIO</a>
+                                <a href="parceiros.html">PARCEIROS</a>
+                            </div>
+                        </div>
+                 </div>
+                
+            </div>
+            <!--fim da div topo-->
+                <!--inicio da div conteudo-->
+                <div id="conteudo">
+                    <!--inicio da div esquerda-->
+                    <div id="esquerda">
+                        <div id="menuv">
+			   <ul>
+				<li><a href="index.html">HOME</a> </li>
+				<li> <a href="produtos.html">PRODUTOS</a> </li>
+				<li> <a href="tecnologias.html">TECNOLOGIAS</a> </li>
+				<li> <a href="clientes.html">CLIENTES</a> </li>
+				<li> <a href="contato.html">CONTATO</a> </li>
+			   </ul>
+		        </div>
+                        <div id="animacao">
+                            <img src="img/animacao.gif"/>
+	  	        </div>
+                    </div>
+                    <!--fim da div eesquerda-->
+                    <!--inicio da div meio-->
+                    <div id="meio">
+                        <h3>Contato</h3>
+                     <form onsubmit="return validaForm();" action="enviar.php">
+			<fieldset>
+				<p>
+				  <label for="nomeempressa">Nome da empressa:</label>  
+				  <input name="nomeempressa" type="text" id="nomeempressa" size="45" maxlength="30" />
+				  <label for="pessoa">Pessoa de contato:</label>
+				  <input name="pessoa" type="text" id="pessoa" size="45" maxlength="30" />
+				  <label for="endereco">Endereço</label>  
+				  <input name="endereco" type="text" id="endereco" size="45" maxlength="35" />
+				  <label for="uf"> UF:</label>
+				  <input name="uf" type="text" id="uf" size="2" maxlength="2" />
+				  <label for="email">email</label>
+				  <input name="email" type="text" id="email" size="45" maxlength="30" />
+				  <label for="telefone">Telefone:</label>
+				  <input name="telefone" type="text" id="telefone" maxlength="11" />
+                  <label for="atuacao">Área de atuação:</label>
+				  <input name="atuacao" type="text" id="atuacao" size="45" />
+			  </p>
+				<p>
+				  <label for="mensagem">Deixe sua mensagem:</label>
+				  <textarea name="mensagem" id="mensagem" cols="45" rows="6"></textarea>
+				</p><br />
+			  <button type="submit" class="button">enviar</button> 
+              
+				<button type="submit" class="button">Limpar</button> 
+		  </fieldset>
+		</form> 
+                    </div>
+                    <!--fim da div meio-->
+                    <!--inicio da div direita-->
+                    <div id="direita">
+                        <h3>Localização</h3>
+                            <iframe width="189" height="380" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=senac+ti+florianopolis&amp;aq=&amp;g=Rua+Silva+Jardim,+360+-+Prainha,+Florian%C3%B3polis+-+SC,+88020-200&amp;ie=UTF8&amp;hq=senac+ti&amp;hnear=Florian%C3%B3polis+-+Santa+Catarina&amp;ll=-27.57519,-48.469777&amp;spn=0.293365,0.210204&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=senac+ti+florianopolis&amp;aq=&amp;g=Rua+Silva+Jardim,+360+-+Prainha,+Florian%C3%B3polis+-+SC,+88020-200&amp;ie=UTF8&amp;hq=senac+ti&amp;hnear=Florian%C3%B3polis+-+Santa+Catarina&amp;ll=-27.57519,-48.469777&amp;spn=0.293365,0.210204" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a></small>
+                            
+                    </div>
+                    <!--fim da div direita-->
+                </div>
+                <!--fim da div conteudo-->
+                <!--inicio da divrodape-->
+                <div id="rodape">
+                    <p class="rodape">Todos os Direitos Reservados AM Designer</p>
+                </div>
+                <!--fim da div rodape-->
+        </div>
+        <!--fim da principal-->
+    </body>
+</html>

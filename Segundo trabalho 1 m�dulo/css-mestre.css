@@ -1,0 +1,399 @@
+/* 
+    Document   : css-mestre
+    Created on : 23/06/2011, 20:44:54
+    Author     : Joel Moraes e Valdir Luiz Hofer Arnhold
+    Description: css mestre das paginas do trabalho final da materia de dw,trabalho realizado pelos alunos do senac-ti Florianopolis SC...
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+ body{
+	 margin:0px;
+	 background-color:#EAEAEA;
+    
+}	 
+#principal{
+width:955px;
+margin:0px auto; 
+background: #FFF;
+box-shadow:#000 2px 15px 40px;
+-moz-box-shadow:#000 2px 15px 40px;
+-webkit-box-shadow:#000 2px 15px 40px;
+}
+
+#cabecalho{
+padding:auto; 
+background: #234567;
+margin:0px 8px;
+background-image:url(img/topo.png);
+width: 940px;
+height:225px;
+box-shadow:#000 2px 0px 10px;
+-moz-box-shadow:#000 2px 0px 10px;
+-webkit-box-shadow:#000 2px 0px 10px;
+
+} 
+
+#subcabecalho{
+	width:940px;
+	height:30px;
+	margin:0px 0px 0px 8px;
+	padding:0px;
+	background-color:#008000;
+	border-bottom: solid #FFF 20px ;
+	box-shadow:#000 2px 0px 10px;
+	-moz-box-shadow:#000 2px 0px 10px;
+	-webkit-box-shadow:#000 2px 0px 10px;
+	
+
+}   
+    
+
+#link{
+    padding: 0px;
+    margin: 0px 0px 0px 548px;
+}
+    #menuh a {
+	width:128px;
+	height:45px;
+	font:bold 14px Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	text-decoration:none;
+	color:#F00;
+	display:inline-block;
+	padding:0px;
+	line-height:45px;
+	text-align:center;
+	
+}
+
+    #menuh a{
+            text-decoration:none;
+    }
+
+    #menuh a{
+            background-image:url(img/a.png);
+            background-repeat:no-repeat;
+    }
+
+    #menuh a:hover{
+            background-image:url(img/h.png);
+            background-repeat:no-repeat;
+            color:#FFF;
+            font-weight:bold;
+    }
+#conteudo{
+      width: 955px;
+      height: auto;
+      background-color:#ffffff;
+    }
+    
+    #esquerda{
+        width: 196px;
+        height: auto;
+        margin-left:8px;
+        margin-top: 8px;
+        padding: 0px;
+        padding: 0px;
+        background-color:#FFFFFF;
+        float: left;
+    }
+    #animacao img{
+        width: 196px;
+        height: 136px;
+    }
+    
+        #menuv ul{
+		width:196px;
+		height:auto;
+		margin:0px;
+		padding:0px;
+		float:left;
+	}
+	#menuv ul li{
+		width:100%;
+		height:50px;
+		padding:0px;
+		margin:0px;
+		list-style:none;
+		font-weight:bold;
+		border-bottom:solid #FFF thin;
+		
+	}
+	#menuv li a{
+		width:100%;
+		height:100%;
+		padding:0px;
+		display:block;
+		text-decoration:none;
+		color:#000;
+		background-color:#999999;
+		line-height:50px;
+		text-align:center;
+		font-weight:bold;
+
+		
+	}
+	#menuv a:hover{
+		color:#FFF;
+		font-weight:200;
+		background-color:#7878E4;
+		font-weight:bold;
+
+	}
+    #direita{
+        width: 200px;
+        height: auto;
+        margin-right: 8px;
+        margin-top: 8px;
+        padding: 2px 1px 0px 9px;
+        background-color:#FFFFFF;
+        float: right;
+    }
+    #meio{
+        width: 500px;
+        height: auto;
+        margin-top: 7px;
+        margin-left: 7px;
+        padding: 0px 0px 7px 0px;
+        background-color:#fff;
+        float: left
+    }
+    
+    #rodape{
+	width:935px; height:50px; 
+	padding:10px; 
+	background: #008000;
+	clear: both;
+	margin:0px;
+	text-align:center;
+}
+    .rodape {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+} 
+/*inicio do css relativo as caixas de noticias*/
+ #caixa1{
+	width:180px;
+	height:auto;
+	float:left;
+	margin-left:40px;
+}
+	#caixa1 a{
+		margin-top:0px;
+		border:solid gray 1px ;
+		box-shadow:#000 2px 15px 30px;
+		-moz-box-shadow:#000 2px 15px 30px;
+		-webkit-box-shadow:#000 2px 15px 30px;
+		
+}
+#caixa2{
+	width:180px;
+	height:auto;
+	float:right;
+	margin-right:40px;
+}
+	#caixa2 a{
+		margin-top:0px;
+		border:solid gray 1px;
+		box-shadow:#000 2px 15px 30px;
+		-moz-box-shadow:#000 2px 15px 30px;
+		-webkit-box-shadow:#000 2px 15px 30px;
+}
+/*fim do css relativo as caixas de noticias*/
+/*inicio css relativo a caixa de texto da pagina home*/
+#textoindex{
+    width:450px;
+    height: auto;
+    background-color: #cccccc;
+    padding: 4px 3px 3px 6px;
+    margin: 2px 0px 30px 19px;
+    box-shadow:#999 15px 10px 15px;
+    -moz-shadow:#999 15px 10px 15px;
+    -webkit-shadow:#999 15px 10px 15px;
+    border-radius:0px 12px;
+    -moz-border-radius:0px 12px;
+    -webkit-border-radius:0px 12px;
+}
+/*fim do css da caixa de texto da pagina home*/
+/*inicio do css relatico ao efeito da caixa clientes*/
+ul.photos {
+	overflow: hidden;
+	padding: 10px 0 0 10px;
+}
+
+ul.photos li {
+	float: left;
+	padding: 0 10px 10px 0;
+        list-style: none;
+}
+
+ul.photos li a {
+	float: left;
+}
+
+ul.photos li a img {
+	-webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 3px;
+	-moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 3px;
+	-o-box-shadow: rgba(0, 0, 0, .25) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, .25) 0 1px 3px;
+	padding: 5px;
+	background: #fff;
+	background: -webkit-gradient(linear 0% 0% 0% 100% from(#fff), to(#eee));
+	background: -moz-linear-gradient(top, #fff, #eee);
+	background: -o-linear-gradient(top, #fff, #eee);
+	background: linear-gradient(top, #fff, #eee);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+}
+
+ul.photos li:nth-child(even) a img {
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	transform: rotate(2deg);
+}
+
+ul.photos li a:hover img,
+ul.photos li a:focus img {
+	-webkit-box-shadow: rgba(0, 0, 0, .5) 0 1px 3px;
+	-moz-box-shadow: rgba(0, 0, 0, .5) 0 1px 3px;
+	-o-box-shadow: rgba(0, 0, 0, .5) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, .5) 0 1px 3px;
+	position: relative;
+	top: -1px;
+	-webkit-transform: scale(1.05) rotate(-2deg);
+	-moz-transform: scale(1.05) rotate(-2deg);
+	-o-transform: scale(1.05) rotate(-2deg);
+	transform: scale(1.05) rotate(-2deg);
+}
+
+ul.photos li:nth-child(even) a:hover img,
+ul.photos li:nth-child(even) a:focus img {
+	-webkit-transform: scale(1.05) rotate(2deg);
+	-moz-transform: scale(1.05) rotate(2deg);
+	-o-transform: scale(1.05) rotate(2deg);
+	transform: scale(1.05) rotate(2deg);
+}
+
+ul.photos li a:active img {
+	top: 0;
+	-webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 3px;
+	-moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 3px;
+	-o-box-shadow: rgba(0, 0, 0, .25) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, .25) 0 1px 3px;
+	background: #eee;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#fff));
+	background: -moz-linear-gradient(top, #eee, #fff);
+	background: -o-linear-gradient(top, #eee, #fff);
+	background: linear-gradient(top, #eee, #fff);
+	-webkit-transform: scale(1) rotate(-2deg);
+	-moz-transform: scale(1) rotate(-2deg);
+	-o-transform: scale(1) rotate(-2deg);
+	transform: scale(1) rotate(-2deg);
+}
+
+ul.photos li:nth-child(even) a:active img {
+	-webkit-transform: scale(1) rotate(2deg);
+	-moz-transform: scale(1) rotate(2deg);
+	-o-transform: scale(1) rotate(2deg);
+	transform: scale(1) rotate(2deg);
+}
+#clientes{
+    margin-left: 65px;
+}
+/*fim do css relativo a pagina clientes*/
+/*css relativo ao formulario*/
+
+label, input {
+	display: block;
+}
+label {
+	font-weight: bold;
+    color:#333333;
+}
+/*fim do css relativo ao formulario*/
+/*inicio do css relativo a pagina portifolio*/
+#cima{
+	margin-left:160px;
+}
+#cima img{
+	width: 350px;
+    height: 300px;
+}
+#baixo img{
+	width: 260px;
+    height: 200px;
+}
+#baixo{
+	margin-left:160px;
+}
+/*fim do css relativo a pagina portifolio*/
+/*inicio do css tecnologias*/
+#tecnologias img{
+  width: 100px;
+  height: 100px;
+}
+#caixatecno{
+    width: 400px;
+    height: auto;
+    background-color:#f6efd9;  
+    margin: 12px 0px 0px 35px;
+    padding: 0px 12px;
+}
+#redes{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+#mundo h2{
+    margin: 0px;
+    padding: 0px;
+    color: #ff3333;
+}
+/*inicio css historia*/
+#content {
+display:block;
+margin: 0 auto;
+padding:0 0 80px 0;
+width:400px;
+height:auto;
+background:#fffdf9;
+-moz-box-shadow: 0 0 4px rgba(160,128,73,0.50);
+-khtml-box-shadow: 0 0 4px rgba(160,128,73,0.50);
+-webkit-box-shadow: 0 0 4px rgba(160,128,73,0.50);	
+}
+        #textohistoria p{
+                
+			padding:30px 30px;
+			font:italic normal 15px/22px Georgia, "Times New Roman", Times, serif;
+			color:#938462;
+			text-align:justify;
+            }
+                        
+                        #titulohis{
+                            width:auto;
+                            height: 65px;
+                            background: #234567;
+							-moz-box-shadow: 4px 4px 0 rgba(160,128,73,0.20);
+							-khtml-box-shadow: 4px 4px 0 rgba(160,128,73,0.20);
+							-webkit-box-shadow: 4px 4px 0 rgba(160,128,73,0.20);
+                        }
+                        #titulohis h3{
+                        display:block;
+						padding:0 20px 0 80px;
+						color:#fffdf9;
+						font: normal normal 2.8em/68px 'LeagueGothicRegular', sans-serif;
+						font-size: 24px;
+						text-transform:uppercase;
+						text-align: justify;
+                        }
